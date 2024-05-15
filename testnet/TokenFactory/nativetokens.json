@@ -1,0 +1,24 @@
+{
+  "title": "TokenFactory - Testnet - Native tokens",
+  "tokens": [
+    {
+      "tokenID": "1234567800000000",
+      "tokenName": "TF",
+      "description": "Native Utility Token",
+      "denomUnits": [
+        {
+          "denom": "tf",
+          "decimals": 0,
+          "aliases": ["TF"]
+        }
+      ],
+      "baseDenom": "tf",
+      "displayDenom": "tf",
+      "symbol": "TF",
+      "logo": {
+        "png": "https://raw.githubusercontent.com/LiskHQ/app-registry/main/testnet/Dex/images/tokens/dex.png",
+        "svg": "https://raw.githubusercontent.com/LiskHQ/app-registry/main/testnet/Dex/images/tokens/dex.svg"
+      }
+    }
+  ]
+}
