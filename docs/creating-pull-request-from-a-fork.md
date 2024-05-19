@@ -8,7 +8,7 @@
 3. On the next page, click on the **compare across forks** link.
    ![Compare across forks](./assets/contributing/compare-across-forks-link.webp)
 
-4. Next, set "base repository" to `LiskHQ/app-registry` and `base` to `main`.
+4. Next, set "base repository" to `klayrhq/app-registry` and `base` to `main`.
    ![Choose base fork and branch](./assets/contributing/choose-base-fork-and-branch.png)
 
 5. Next, select your own repository as the `head repository` from the drop-down and set `compare` to the branch containing your changes.

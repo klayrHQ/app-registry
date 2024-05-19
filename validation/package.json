@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "license": "Apache-2.0",
   "keywords": [
-    "lisk",
+    "klayr",
     "blockchain",
     "registry",
     "off-chain",
@@ -19,7 +19,7 @@
     "lint:fix": "eslint --fix \"./**/*.js\" "
   },
   "dependencies": {
-    "@liskhq/lisk-client": "^6.0.0",
+    "@klayr/client": "^6.0.3",
     "ajv": "8.12.0",
     "ajv-formats": "2.1.1",
     "ansi-colors": "^4.1.3",

@@ -2,7 +2,7 @@
     "$id": "",
     "$schema": "",
     "title": "Native tokens list",
-    "description": "List of all Lisk protocol compliant fungible native tokens to allow wallets and other third party tools to fetch metadata",
+    "description": "List of all Klayr protocol compliant fungible native tokens to allow wallets and other third party tools to fetch metadata",
     "type": "object",
     "required": [
         "tokens"
@@ -54,13 +54,13 @@
                     "type": "string",
                     "format": "uri-reference",
                     "description": "URI to the PNG format of the token logo.",
-                    "example": "https://lisk.com/logo.png"
+                    "example": "https://klayr.xyz/logo.png"
                 },
                 "svg": {
                     "type": "string",
                     "format": "uri-reference",
                     "description": "URI to the SVG format of the token logo.",
-                    "example": "https://lisk.com/logo.svg"
+                    "example": "https://klayr.xyz/logo.svg"
                 }
             }
         },
@@ -77,18 +77,18 @@
             "properties": {
                 "tokenID": {
                     "type": "string",
-                    "description": "The universal identifier for the token within the Lisk ecosystem.",
+                    "description": "The universal identifier for the token within the Klayr ecosystem.",
                     "example": "0000000000000000"
                 },
                 "tokenName": {
                     "type": "string",
-                    "description": "The name of the token. For example Lisk.",
-                    "example": "Lisk"
+                    "description": "The name of the token. For example Klayr.",
+                    "example": "Klayr"
                 },
                 "description": {
                     "type": "string",
                     "description": "A short description of the token.",
-                    "example": "Default token for the entire Lisk ecosystem."
+                    "example": "Default token for the entire Klayr ecosystem."
                 },
                 "denomUnits": {
                     "type": "array",

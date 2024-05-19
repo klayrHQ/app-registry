@@ -18,7 +18,7 @@ const sharp = require('sharp');
 const { readJsonFile } = require('./utils/fs');
 const config = require('../config');
 
-const { httpRequest, wsRequest, requestInfoFromLiskNodeWSEndpoint, requestInfoFromLiskNodeHTTPEndpoint } = require('./utils/request/index');
+const { httpRequest, wsRequest, requestInfoFromKlayrNodeWSEndpoint, requestInfoFromKlayrNodeHTTPEndpoint } = require('./utils/request/index');
 const { readFile } = require('./utils/fs');
 
 const LOCALHOST_IP = '127.0.0.1';
@@ -184,13 +184,13 @@ const validateAppNodeUrls = async (appNodeInfos, chainID, isSecuredNetwork, isAu
 			if (!appNodeUrl.includes(LOCALHOST_IP)) {
 				if (protocol === 'ws:' || protocol === 'wss:') {
 					// Validate ws app node URLs
-					const nodeSystemInfo = await requestInfoFromLiskNodeWSEndpoint(appNodeUrl, publicKey);
+					const nodeSystemInfo = await requestInfoFromKlayrNodeWSEndpoint(appNodeUrl, publicKey);
 					if (nodeSystemInfo.chainID !== chainID) {
 						validationErrors.push(`ChainID mismatch on node: ${appNodeUrl}.\nNode chainID: ${nodeSystemInfo.chainID}.\napp.json chainID: ${chainID}.\nPlease ensure that the supplied values in the config are accurate.`);
 					}
 				} else if (protocol === 'http:' || protocol === 'https:') {
 					// Validate HTTP app node URLs
-					const nodeSystemInfo = await requestInfoFromLiskNodeHTTPEndpoint(appNodeUrl, publicKey);
+					const nodeSystemInfo = await requestInfoFromKlayrNodeHTTPEndpoint(appNodeUrl, publicKey);
 					if (nodeSystemInfo.chainID !== chainID) {
 						validationErrors.push(`ChainID mismatch on node: ${appNodeUrl}.\nNode chainID: ${nodeSystemInfo.chainID}.\napp.json chainID: ${chainID}.\nPlease ensure that the supplied values in the config are accurate.`);
 					}
@@ -224,7 +224,7 @@ const validateServiceURLs = async (serviceURLs, chainID, isSecuredNetwork, isAut
 		if (isSecuredNetwork && (httpProtocol !== 'https:' || wsProtocol !== 'wss:' || !publicKey)) {
 			validationErrors.push(`Require secure URLs and API certificate public key in case of the following networks: ${config.securedNetworks}.`);
 		} else if (!isSecuredNetwork && !((httpProtocol === 'https:' && wsProtocol === 'wss:' && publicKey) || (httpProtocol === 'http:' && wsProtocol === 'ws:'))) {
-			validationErrors.push('Require Lisk Service HTTP and WS URLs. For secured deployments, please provide apiCertificatePublicKey as well.');
+			validationErrors.push('Require Klayr Service HTTP and WS URLs. For secured deployments, please provide apiCertificatePublicKey as well.');
 		} else {
 			// Validate HTTP service URLs
 			if (httpServiceURL) {

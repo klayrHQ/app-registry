@@ -15,7 +15,7 @@
 const axios = require('axios');
 const https = require('https');
 const io = require('socket.io-client');
-const { apiClient } = require('@liskhq/lisk-client');
+const { apiClient } = require('@klayr/client');
 const config = require('../../../config');
 
 const { getCertificateFromURL, convertCertificateToPemPublicKey } = require('./certificate');
@@ -99,7 +99,7 @@ const wsRequest = async (wsEndpoint, wsMethod, wsParams, publicKey, timeout = co
 	return res;
 };
 
-const requestInfoFromLiskNodeWSEndpoint = async (wsEndpoint, publicKey) => {
+const requestInfoFromKlayrNodeWSEndpoint = async (wsEndpoint, publicKey) => {
 	const { protocol } = new URL(wsEndpoint);
 	if (protocol !== 'ws:' && protocol !== 'wss:') {
 		return Promise.reject(new Error('Invalid WebSocket URL.'));
@@ -115,7 +115,7 @@ const requestInfoFromLiskNodeWSEndpoint = async (wsEndpoint, publicKey) => {
 	return res;
 };
 
-const requestInfoFromLiskNodeHTTPEndpoint = async (url, publicKey) => {
+const requestInfoFromKlayrNodeHTTPEndpoint = async (url, publicKey) => {
 	const { protocol } = new URL(url);
 	if (protocol !== 'http:' && protocol !== 'https:') {
 		return Promise.reject(new Error(`Invalid HTTP URL: ${url}`));
@@ -148,6 +148,6 @@ const requestInfoFromLiskNodeHTTPEndpoint = async (url, publicKey) => {
 module.exports = {
 	httpRequest,
 	wsRequest,
-	requestInfoFromLiskNodeWSEndpoint,
-	requestInfoFromLiskNodeHTTPEndpoint,
+	requestInfoFromKlayrNodeWSEndpoint,
+	requestInfoFromKlayrNodeHTTPEndpoint,
 };
