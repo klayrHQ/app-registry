@@ -16,7 +16,7 @@
         {
             "http": "https://service.klayr.xyz",
             "ws": "wss://service.klayr.xyz",
-            "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJGfLXBTbkw1rOMnwJwu\nj+a5mPYuSSPy4u+FKZ/e5dkOTL8S+Dv44enmRjR2y/yFQTvUtGwx1hU3Llaa1cgJ\nZSqURBIouueh8hhK6/NDniU2c23ORpBcVYJTaT4035lMmAY4gmT6pCe2X6/aID/c\n7x8P23KcL8D544CJOFEAnQgHvxoQPIyjtQXK7qolbm1F+EzlomGq0atG20wd6hKK\nOptPNQTqv6PN+n3NxPQF3ZeH8ft5Q6rQ1HKfjq3BWkiTOOob4D2eZbc0a880QgEO\nOKLfm4a7SeH70VhIfwch0xyehyv6zWCLVb3HwSFQaTBfYQFcupNTmy53sFAimNq6\nawIDAQAB\n-----END PUBLIC KEY-----"
+            "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoWCLObWsqufJm3aOSigy\nvc+kpjE2058UtgBgNfqp7nfcHePMzSpLZrLiILN8m5y0E4UYT4ywLSe7nzzbmLEW\n+BTSItaAPP/cOLPA89VhbmEDQJa2ndfGT5CGP++duvlQ6yH0JHdOkwIpr+o7Mjvs\nSfgIMtALtm5uNOGN4sJSFoNPjXDpskgHi6rOXXifN89wXx38KNCll+tlzUFjOtLR\nZI8ykq+5TDtS9NBJKqIHS3xIQXpXHK63mA9ogmmMwN/4cPh8S+vVUigzdorH6+4m\nFSdE+KfZHc+eK5mr+FfCRJOo6PKMCEeAM1ykBvyX93PwqCndeM+ldL2/EfQvijN+\n+wIDAQAB\n-----END PUBLIC KEY-----"
         }
     ],
     "explorers": [
@@ -29,12 +29,12 @@
         {
             "url": "https://mainnet.klayr.xyz",
             "maintainer": "Klayr Labs B.V.",
-            "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJGfLXBTbkw1rOMnwJwu\nj+a5mPYuSSPy4u+FKZ/e5dkOTL8S+Dv44enmRjR2y/yFQTvUtGwx1hU3Llaa1cgJ\nZSqURBIouueh8hhK6/NDniU2c23ORpBcVYJTaT4035lMmAY4gmT6pCe2X6/aID/c\n7x8P23KcL8D544CJOFEAnQgHvxoQPIyjtQXK7qolbm1F+EzlomGq0atG20wd6hKK\nOptPNQTqv6PN+n3NxPQF3ZeH8ft5Q6rQ1HKfjq3BWkiTOOob4D2eZbc0a880QgEO\nOKLfm4a7SeH70VhIfwch0xyehyv6zWCLVb3HwSFQaTBfYQFcupNTmy53sFAimNq6\nawIDAQAB\n-----END PUBLIC KEY-----"
+            "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoWCLObWsqufJm3aOSigy\nvc+kpjE2058UtgBgNfqp7nfcHePMzSpLZrLiILN8m5y0E4UYT4ywLSe7nzzbmLEW\n+BTSItaAPP/cOLPA89VhbmEDQJa2ndfGT5CGP++duvlQ6yH0JHdOkwIpr+o7Mjvs\nSfgIMtALtm5uNOGN4sJSFoNPjXDpskgHi6rOXXifN89wXx38KNCll+tlzUFjOtLR\nZI8ykq+5TDtS9NBJKqIHS3xIQXpXHK63mA9ogmmMwN/4cPh8S+vVUigzdorH6+4m\nFSdE+KfZHc+eK5mr+FfCRJOo6PKMCEeAM1ykBvyX93PwqCndeM+ldL2/EfQvijN+\n+wIDAQAB\n-----END PUBLIC KEY-----"
         },
         {
             "url": "wss://mainnet.klayr.xyz",
             "maintainer": "Klayr Labs B.V.",
-            "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJGfLXBTbkw1rOMnwJwu\nj+a5mPYuSSPy4u+FKZ/e5dkOTL8S+Dv44enmRjR2y/yFQTvUtGwx1hU3Llaa1cgJ\nZSqURBIouueh8hhK6/NDniU2c23ORpBcVYJTaT4035lMmAY4gmT6pCe2X6/aID/c\n7x8P23KcL8D544CJOFEAnQgHvxoQPIyjtQXK7qolbm1F+EzlomGq0atG20wd6hKK\nOptPNQTqv6PN+n3NxPQF3ZeH8ft5Q6rQ1HKfjq3BWkiTOOob4D2eZbc0a880QgEO\nOKLfm4a7SeH70VhIfwch0xyehyv6zWCLVb3HwSFQaTBfYQFcupNTmy53sFAimNq6\nawIDAQAB\n-----END PUBLIC KEY-----"
+            "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoWCLObWsqufJm3aOSigy\nvc+kpjE2058UtgBgNfqp7nfcHePMzSpLZrLiILN8m5y0E4UYT4ywLSe7nzzbmLEW\n+BTSItaAPP/cOLPA89VhbmEDQJa2ndfGT5CGP++duvlQ6yH0JHdOkwIpr+o7Mjvs\nSfgIMtALtm5uNOGN4sJSFoNPjXDpskgHi6rOXXifN89wXx38KNCll+tlzUFjOtLR\nZI8ykq+5TDtS9NBJKqIHS3xIQXpXHK63mA9ogmmMwN/4cPh8S+vVUigzdorH6+4m\nFSdE+KfZHc+eK5mr+FfCRJOo6PKMCEeAM1ykBvyX93PwqCndeM+ldL2/EfQvijN+\n+wIDAQAB\n-----END PUBLIC KEY-----"
         }
     ]
 }
