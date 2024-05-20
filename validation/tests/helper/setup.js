@@ -8,7 +8,7 @@ const createTestEnvironment = async () => {
 	await fs.mkdir(path.join(config.rootDir, 'tempDir'));
 	await fs.mkdir(path.join(config.rootDir, 'tempDir', 'docs'));
 	await fs.mkdir(path.join(config.rootDir, 'tempDir', 'mainnet'));
-	await fs.mkdir(path.join(config.rootDir, 'tempDir', 'mainnet', 'Lisk'));
+	await fs.mkdir(path.join(config.rootDir, 'tempDir', 'mainnet', 'Klayr'));
 };
 
 const cleanTestEnvironment = async () => {
@@ -16,13 +16,13 @@ const cleanTestEnvironment = async () => {
 };
 
 const createFileInNetwork = async (filename, data) => {
-	await fs.writeFile(path.join(config.rootDir, 'tempDir', 'mainnet', 'Lisk', filename), data);
+	await fs.writeFile(path.join(config.rootDir, 'tempDir', 'mainnet', 'Klayr', filename), data);
 };
 
-const getFileFromNetwork = (filename) => path.join(config.rootDir, 'tempDir', 'mainnet', 'Lisk', filename);
+const getFileFromNetwork = (filename) => path.join(config.rootDir, 'tempDir', 'mainnet', 'Klayr', filename);
 
 const removeFileFromNetwork = async (filename) => {
-	await fs.rm(path.join(config.rootDir, 'tempDir', 'mainnet', 'Lisk', filename));
+	await fs.rm(path.join(config.rootDir, 'tempDir', 'mainnet', 'Klayr', filename));
 };
 
 const createFileInDocs = async (filename, data) => {
@@ -35,8 +35,8 @@ const removeFileFromDocs = async (filename) => {
 
 const getJSONFilesFromNetwork = () => {
 	const files = [];
-	files.push(path.join(config.rootDir, 'tempDir', 'mainnet', 'Lisk', config.filename.APP_JSON));
-	files.push(path.join(config.rootDir, 'tempDir', 'mainnet', 'Lisk', config.filename.NATIVE_TOKENS));
+	files.push(path.join(config.rootDir, 'tempDir', 'mainnet', 'Klayr', config.filename.APP_JSON));
+	files.push(path.join(config.rootDir, 'tempDir', 'mainnet', 'Klayr', config.filename.NATIVE_TOKENS));
 	return files;
 };
 
@@ -49,7 +49,7 @@ const getJSONFilesFromDocs = () => {
 
 const getNetworkDirs = () => [path.join(config.rootDir, 'tempDir', 'mainnet')];
 
-const getAppDirs = () => [path.join(config.rootDir, 'tempDir', 'mainnet', 'Lisk')];
+const getAppDirs = () => [path.join(config.rootDir, 'tempDir', 'mainnet', 'Klayr')];
 
 module.exports = {
 	tempDataDir,

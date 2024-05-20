@@ -1,11 +1,11 @@
 # Validation Scripts
-These scripts offer tooling to ensure that every new PR contains the necessary files to validate the submitted metadata configurations against the standardized schema. It also ensures that the submitted metadata information also match the on-chain information using the Lisk Service URLs specified in the metadata.
+These scripts offer tooling to ensure that every new PR contains the necessary files to validate the submitted metadata configurations against the standardized schema. It also ensures that the submitted metadata information also match the on-chain information using the Klayr Service URLs specified in the metadata.
 
 ## Installation
 Clone the app-registry repository:
 
 ```bash
-git clone https://github.com/LiskHQ/app-registry.git
+git clone https://github.com/klayrhq/app-registry.git
 cd ./app-registry/validation
 npm ci
 ```
@@ -24,7 +24,7 @@ npm test
 
 ## Contributors
 
-https://github.com/LiskHQ/app-registry/graphs/contributors
+https://github.com/klayrhq/app-registry/graphs/contributors
 
 ## License
 
@@ -42,4 +42,4 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-[lisk documentation site]: https://lisk.com/documentation
+[klayr documentation site]: https://klayr.xyz/documentation

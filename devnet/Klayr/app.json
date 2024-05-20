@@ -1,0 +1,28 @@
+{
+    "title": "Klayr - Devnet",
+    "description": "Metadata configuration for the Klayr blockchain (mainchain) in devnet",
+    "chainName": "klayr_mainchain",
+    "displayName": "Klayr",
+    "chainID": "04000000",
+    "networkType": "devnet",
+    "genesisURL": "https://github.com/KlayrHQ/klayr-core/blob/development/config/devnet/genesis_assets.json",
+    "projectPage": "https://klayr.xyz",
+    "logo": {
+        "png": "https://downloads.klayr.xyz/media/klayr.png",
+        "svg": "https://downloads.klayr.xyz/media/klayr.svg"
+    },
+    "backgroundColor": "#EDEDCE",
+    "serviceURLs": [
+        {
+            "http": "http://127.0.0.1:9901",
+            "ws": "ws://127.0.0.1:9901"
+        }
+    ],
+    "explorers": [],
+    "appNodes": [
+        {
+            "url": "ws://127.0.0.1:7887",
+            "maintainer": "Klayr Labs B.V."
+        }
+    ]
+}

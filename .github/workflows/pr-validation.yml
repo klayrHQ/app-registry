@@ -22,7 +22,7 @@ jobs:
         id: checkUserMember
         with:
           username: ${{ github.actor }}
-          organization: 'LiskHQ'
+          organization: 'KlayrHQ'
           team: 'platform'
           GITHUB_TOKEN: ${{ secrets.READ_ACCESS_TOKEN }}
       - name: Set TEAM_MEMBER_STATUS to false if READ_ACCESS_TOKEN is not present

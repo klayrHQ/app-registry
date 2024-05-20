@@ -1,0 +1,33 @@
+{
+    "title": "Klayr - Mainnet - Native tokens",
+    "tokens": [
+        {
+            "tokenID": "0000000000000000",
+            "tokenName": "Klayr",
+            "description": "Default token for the entire Klayr ecosystem",
+            "denomUnits": [
+                {
+                    "denom": "beddows",
+                    "decimals": 0,
+                    "aliases": [
+                        "Beddows"
+                    ]
+                },
+                {
+                    "denom": "kly",
+                    "decimals": 8,
+                    "aliases": [
+                        "Klayr"
+                    ]
+                }
+            ],
+            "baseDenom": "beddows",
+            "displayDenom": "kly",
+            "symbol": "KLY",
+            "logo": {
+                "png": "https://downloads.klayr.xyz/media/klayr.png",
+                "svg": "https://downloads.klayr.xyz/media/klayr.svg"
+            }
+        }
+    ]
+}

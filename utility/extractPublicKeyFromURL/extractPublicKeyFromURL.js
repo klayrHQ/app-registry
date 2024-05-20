@@ -23,22 +23,21 @@ const getCertificateFromURL = async (url) => new Promise((resolve, reject) => {
 	const { host } = new URL(url);
 
 	// Use OpenSSL to retrieve the PEM certificate
-	const command = `openssl s_client -connect ${host}:443 -showcerts </dev/null 2>/dev/null | openssl x509 -outform PEM`;
-
+	// const command = `openssl s_client -connect ${host}:443 -showcerts 2>/dev/null </dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' | openssl x509 &>/dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > output.pem`;
+	const command = `openssl s_client -connect ${host}:443 -showcerts 2>/dev/null </dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p'`;
 	exec(command, (error, stdout, stderr) => {
-		if (error) {
-			reject(error);
-			return;
-		}
+			if (error) {
+				reject(error);
+				return;
+			}
 
-		if (stderr) {
-			reject(new Error(`Error: ${stderr}`));
-			return;
-		}
-
-		const pemCertificate = stdout;
-		resolve(pemCertificate);
-	});
+			if (stderr) {
+				reject(new Error(`Error: ${stderr}`));
+				return;
+			}
+			const pemCertificate = stdout;
+			resolve(pemCertificate);
+		});
 });
 
 const convertCertificateToPemPublicKey = (pemCertificate) => new Promise((resolve, reject) => {

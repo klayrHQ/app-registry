@@ -1,0 +1,40 @@
+{
+    "title": "Klayr - Testnet",
+    "description": "Metadata configuration for the Klayr blockchain (mainchain) in testnet",
+    "chainName": "klayr_mainchain",
+    "displayName": "Klayr",
+    "chainID": "01000000",
+    "networkType": "testnet",
+    "genesisURL": "https://github.com/KlayrHQ/klayr-core/blob/development/config/testnet/genesis_assets.json",
+    "projectPage": "https://klayr.xyz",
+    "logo": {
+        "png": "https://downloads.klayr.xyz/media/klayr.png",
+        "svg": "https://downloads.klayr.xyz/media/klayr.svg"
+    },
+    "backgroundColor": "#EDEDCE",
+    "serviceURLs": [
+        {
+            "http": "https://testnet-service.klayr.xyz",
+            "ws": "wss://testnet-service.klayr.xyz",
+            "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoWCLObWsqufJm3aOSigy\nvc+kpjE2058UtgBgNfqp7nfcHePMzSpLZrLiILN8m5y0E4UYT4ywLSe7nzzbmLEW\n+BTSItaAPP/cOLPA89VhbmEDQJa2ndfGT5CGP++duvlQ6yH0JHdOkwIpr+o7Mjvs\nSfgIMtALtm5uNOGN4sJSFoNPjXDpskgHi6rOXXifN89wXx38KNCll+tlzUFjOtLR\nZI8ykq+5TDtS9NBJKqIHS3xIQXpXHK63mA9ogmmMwN/4cPh8S+vVUigzdorH6+4m\nFSdE+KfZHc+eK5mr+FfCRJOo6PKMCEeAM1ykBvyX93PwqCndeM+ldL2/EfQvijN+\n+wIDAQAB\n-----END PUBLIC KEY-----"
+        }
+    ],
+    "explorers": [
+        {
+            "url": "https://testnet-explorer.klayr.xyz",
+            "txnPage": "https://testnet-explorer.klayr.xyz/transactions"
+        }
+    ],
+    "appNodes": [
+        {
+            "url": "https://testnet.klayr.xyz",
+            "maintainer": "Klayr Labs B.V.",
+            "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoWCLObWsqufJm3aOSigy\nvc+kpjE2058UtgBgNfqp7nfcHePMzSpLZrLiILN8m5y0E4UYT4ywLSe7nzzbmLEW\n+BTSItaAPP/cOLPA89VhbmEDQJa2ndfGT5CGP++duvlQ6yH0JHdOkwIpr+o7Mjvs\nSfgIMtALtm5uNOGN4sJSFoNPjXDpskgHi6rOXXifN89wXx38KNCll+tlzUFjOtLR\nZI8ykq+5TDtS9NBJKqIHS3xIQXpXHK63mA9ogmmMwN/4cPh8S+vVUigzdorH6+4m\nFSdE+KfZHc+eK5mr+FfCRJOo6PKMCEeAM1ykBvyX93PwqCndeM+ldL2/EfQvijN+\n+wIDAQAB\n-----END PUBLIC KEY-----"
+        },
+        {
+            "url": "wss://testnet.klayr.xyz",
+            "maintainer": "Klayr Labs B.V.",
+            "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoWCLObWsqufJm3aOSigy\nvc+kpjE2058UtgBgNfqp7nfcHePMzSpLZrLiILN8m5y0E4UYT4ywLSe7nzzbmLEW\n+BTSItaAPP/cOLPA89VhbmEDQJa2ndfGT5CGP++duvlQ6yH0JHdOkwIpr+o7Mjvs\nSfgIMtALtm5uNOGN4sJSFoNPjXDpskgHi6rOXXifN89wXx38KNCll+tlzUFjOtLR\nZI8ykq+5TDtS9NBJKqIHS3xIQXpXHK63mA9ogmmMwN/4cPh8S+vVUigzdorH6+4m\nFSdE+KfZHc+eK5mr+FfCRJOo6PKMCEeAM1ykBvyX93PwqCndeM+ldL2/EfQvijN+\n+wIDAQAB\n-----END PUBLIC KEY-----"
+        }
+    ]
+}

@@ -48,7 +48,7 @@ const drawBorder = (messages) => {
 const validate = async () => {
 	let validationErrors = [];
 
-	// Check if the PR author is from the @LiskHQ/platform team
+	// Check if the PR author is from the @klayrhq/platform team
 	const isAuthorFromDevTeam = process.argv[2] === 'true';
 
 	// Get all modified files
