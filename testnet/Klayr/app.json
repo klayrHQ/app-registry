@@ -8,8 +8,8 @@
     "genesisURL": "https://github.com/KlayrHQ/klayr-core/blob/development/config/testnet/genesis_assets.json",
     "projectPage": "https://klayr.xyz",
     "logo": {
-        "png": "https://raw.githubusercontent.com/KlayrHQ/app-registry/main/testnet/Klayr/images/application/klayr.png",
-        "svg": "https://raw.githubusercontent.com/KlayrHQ/app-registry/main/testnet/Klayr/images/application/klayr.svg"
+        "png": "https://downloads.klayr.xyz/media/klayr.png",
+        "svg": "https://downloads.klayr.xyz/media/klayr.svg"
     },
     "backgroundColor": "#EDEDCE",
     "serviceURLs": [
