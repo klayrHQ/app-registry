@@ -2,7 +2,7 @@
   "title": "TokenFactory - Testnet - Native tokens",
   "tokens": [
     {
-      "tokenID": "1234567800000000",
+      "tokenID": "0123456700000000",
       "tokenName": "TF",
       "description": "Native Utility Token",
       "denomUnits": [
