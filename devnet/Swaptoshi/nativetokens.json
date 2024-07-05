@@ -12,13 +12,13 @@
           "aliases": ["Nakamoto"]
         },
         {
-          "denom": "SWX",
+          "denom": "swx",
           "decimals": 8,
           "aliases": ["Swaptoshi"]
         }
       ],
       "baseDenom": "nakamoto",
-      "displayDenom": "SWX",
+      "displayDenom": "swx",
       "symbol": "SWX",
       "logo": {
         "png": "https://raw.githubusercontent.com/Swaptoshi/app-registry/main/devnet/Swaptoshi/images/tokens/swx.png",
@@ -36,13 +36,13 @@
           "aliases": ["Nakamoto"]
         },
         {
-          "denom": "SWL",
+          "denom": "swl",
           "decimals": 8,
           "aliases": ["Swaptoshi Liquid Staking"]
         }
       ],
       "baseDenom": "nakamoto",
-      "displayDenom": "SWL",
+      "displayDenom": "swl",
       "symbol": "SWL",
       "logo": {
         "png": "https://raw.githubusercontent.com/Swaptoshi/app-registry/main/devnet/Swaptoshi/images/tokens/swl.png",
