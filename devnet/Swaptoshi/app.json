@@ -1,7 +1,7 @@
 {
   "title": "Swaptoshi - Devnet",
   "description": "Metadata configuration for the Swaptoshi blockchain (sidechain) in devnet",
-  "chainName": "swaptoshi_sidechain",
+  "chainName": "swaptoshi",
   "displayName": "Swaptoshi",
   "chainID": "04555555",
   "networkType": "devnet",
