@@ -1,0 +1,28 @@
+{
+  "title": "Swaptoshi - Devnet",
+  "description": "Metadata configuration for the Swaptoshi blockchain (sidechain) in devnet",
+  "chainName": "swaptoshi_sidechain",
+  "displayName": "Swaptoshi",
+  "chainID": "04555555",
+  "networkType": "devnet",
+  "genesisURL": "https://github.com/Swaptoshi/swaptoshi-core/raw/main/config/devnet/genesis_assets.json",
+  "projectPage": "https://swaptoshi.com",
+  "logo": {
+    "png": "https://raw.githubusercontent.com/Swaptoshi/app-registry/main/devnet/Swaptoshi/images/application/swaptoshi.png",
+    "svg": "https://raw.githubusercontent.com/Swaptoshi/app-registry/main/devnet/Swaptoshi/images/application/swaptoshi.svg"
+  },
+  "backgroundColor": "#FFFFFF",
+  "serviceURLs": [
+    {
+      "http": "http://127.0.0.1:9901",
+      "ws": "ws://127.0.0.1:9901"
+    }
+  ],
+  "explorers": [],
+  "appNodes": [
+    {
+      "url": "ws://18.220.152.62:7887",
+      "maintainer": "Swaptoshi Labs"
+    }
+  ]
+}

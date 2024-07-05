@@ -1,0 +1,29 @@
+{
+  "title": "Swaptoshi - Devnet - Native tokens",
+  "tokens": [
+    {
+      "tokenID": "0455555500000000",
+      "tokenName": "Swaptoshi",
+      "description": "Default token for the entire Swaptoshi ecosystem",
+      "denomUnits": [
+        {
+          "denom": "nakamoto",
+          "decimals": 0,
+          "aliases": ["Nakamoto"]
+        },
+        {
+          "denom": "swt",
+          "decimals": 8,
+          "aliases": ["Swaptoshi"]
+        }
+      ],
+      "baseDenom": "nakamoto",
+      "displayDenom": "swt",
+      "symbol": "SWT",
+      "logo": {
+        "png": "https://raw.githubusercontent.com/Swaptoshi/app-registry/main/devnet/Swaptoshi/images/tokens/swaptoshi.png",
+        "svg": "https://raw.githubusercontent.com/Swaptoshi/app-registry/main/devnet/Swaptoshi/images/tokens/swaptoshi.svg"
+      }
+    }
+  ]
+}
