@@ -1,0 +1,32 @@
+{
+  "title": "Swaptoshi - Testnet",
+  "description": "Metadata configuration for the Swaptoshi blockchain (sidechain) in testnet",
+  "chainName": "swaptoshi",
+  "displayName": "Swaptoshi",
+  "chainID": "01555555",
+  "networkType": "testnet",
+  "genesisURL": "https://github.com/Swaptoshi/swaptoshi-core/raw/main/config/testnet/genesis_assets.json",
+  "projectPage": "https://swaptoshi.com",
+  "logo": {
+    "png": "https://raw.githubusercontent.com/Swaptoshi/app-registry/main/testnet/Swaptoshi/images/application/swaptoshi.png",
+    "svg": "https://raw.githubusercontent.com/Swaptoshi/app-registry/main/testnet/Swaptoshi/images/application/swaptoshi.svg"
+  },
+  "backgroundColor": "#FFFFFF",
+  "serviceURLs": [
+    {
+      "http": "https://testnet-service.swaptoshi.com",
+      "ws": "ws://testnet-service.swaptoshi.com"
+    }
+  ],
+  "explorers": [],
+  "appNodes": [
+    {
+      "url": "ws://testnet-seed-01.swaptoshi.com:7887",
+      "maintainer": "Swaptoshi Labs"
+    },
+    {
+      "url": "ws://testnet-seed-03.swaptoshi.com:7887",
+      "maintainer": "Swaptoshi Labs"
+    }
+  ]
+}
