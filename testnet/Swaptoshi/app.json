@@ -20,16 +20,5 @@
     }
   ],
   "explorers": [],
-  "appNodes": [
-    {
-      "url": "https://testnet.swaptoshi.com",
-      "maintainer": "Swaptoshi Labs",
-      "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJuhEF/6mLD4DYCfnJBAwGawN7yQP\nS3w2knS65PHMScXiZjCrFMPKG0+7NswA3WhIJn0AU4IKffuPnpt8Mly+yg==\n-----END PUBLIC KEY-----"
-    },
-    {
-      "url": "wss://testnet.swaptoshi.com",
-      "maintainer": "Swaptoshi Labs",
-      "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJuhEF/6mLD4DYCfnJBAwGawN7yQP\nS3w2knS65PHMScXiZjCrFMPKG0+7NswA3WhIJn0AU4IKffuPnpt8Mly+yg==\n-----END PUBLIC KEY-----"
-    }
-  ]
+  "appNodes": []
 }
