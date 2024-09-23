@@ -15,18 +15,21 @@
   "serviceURLs": [
     {
       "http": "https://testnet-service.swaptoshi.com",
-      "ws": "ws://testnet-service.swaptoshi.com"
+      "ws": "wss://testnet-service.swaptoshi.com",
+      "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJuhEF/6mLD4DYCfnJBAwGawN7yQP\nS3w2knS65PHMScXiZjCrFMPKG0+7NswA3WhIJn0AU4IKffuPnpt8Mly+yg==\n-----END PUBLIC KEY-----"
     }
   ],
   "explorers": [],
   "appNodes": [
     {
-      "url": "ws://testnet-seed-01.swaptoshi.com:7887",
-      "maintainer": "Swaptoshi Labs"
+      "url": "https://testnet.swaptoshi.com",
+      "maintainer": "Swaptoshi Labs",
+      "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJuhEF/6mLD4DYCfnJBAwGawN7yQP\nS3w2knS65PHMScXiZjCrFMPKG0+7NswA3WhIJn0AU4IKffuPnpt8Mly+yg==\n-----END PUBLIC KEY-----"
     },
     {
-      "url": "ws://testnet-seed-03.swaptoshi.com:7887",
-      "maintainer": "Swaptoshi Labs"
+      "url": "wss://testnet.swaptoshi.com",
+      "maintainer": "Swaptoshi Labs",
+      "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJuhEF/6mLD4DYCfnJBAwGawN7yQP\nS3w2knS65PHMScXiZjCrFMPKG0+7NswA3WhIJn0AU4IKffuPnpt8Mly+yg==\n-----END PUBLIC KEY-----"
     }
   ]
 }
