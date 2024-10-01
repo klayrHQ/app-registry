@@ -8,7 +8,7 @@
       "denomUnits": [
         {
           "denom": "pepe",
-          "decimals": 0,
+          "decimals": 8,
           "aliases": ["PEPE"]
         }
       ],
