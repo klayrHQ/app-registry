@@ -21,8 +21,8 @@
       "displayDenom": "pepe",
       "symbol": "PEPE",
       "logo": {
-        "png": "https://github.com/Theezr/pepe-world-chain/blob/6179ffe51e35734e22af9a4cb62cf5a4d6fa47fc/images/pepe-coin.png",
-        "svg": "https://github.com/Theezr/pepe-world-chain/blob/6179ffe51e35734e22af9a4cb62cf5a4d6fa47fc/images/pepe-coin.svg"
+        "png": "https://raw.githubusercontent.com/Theezr/pepe-world-chain/6179ffe51e35734e22af9a4cb62cf5a4d6fa47fc/images/pepe-coin.png",
+        "svg": "https://raw.githubusercontent.com/Theezr/pepe-world-chain/6179ffe51e35734e22af9a4cb62cf5a4d6fa47fc/images/pepe-coin.svg"
       }
     }
   ]
