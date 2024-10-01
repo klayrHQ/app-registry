@@ -1,0 +1,25 @@
+{
+  "title": "Pepe World - Testnet",
+  "description": "Metadata configuration for the Pepe World blockchain (sidechain) in testnet.",
+  "chainName": "Pepe World",
+  "chainID": "01371337",
+  "networkType": "testnet",
+  "genesisURL": "https://github.com/Theezr/pepe-world-chain/blob/master/config/default/genesis_assets.json",
+  "projectPage": "https://pepe-world-fe.vercel.app/",
+  "logo": {
+    "png": "https://github.com/Theezr/pepe-world-chain/blob/6179ffe51e35734e22af9a4cb62cf5a4d6fa47fc/images/pepe-coin.png",
+    "svg": "https://github.com/Theezr/pepe-world-chain/blob/6179ffe51e35734e22af9a4cb62cf5a4d6fa47fc/images/pepe-coin.svg"
+  },
+  "backgroundColor": "#f7f9fb",
+  "serviceURLs": [
+    {
+      "http": " https://token-factory-service.klayr.dev",
+      "ws": "wss://token-factory-service.klayr.dev",
+      "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEa660HFMuGo55VCL26J+2tZsSFWDb\nZDWBRvR+X9fTO7IpoWtjikgffM3owzvnr2qvNtd0HKJT7UeZC8YUGy8A4Q==\n-----END PUBLIC KEY-----\n"
+    }
+  ],
+  "explorers": [],
+  "appNodes": [
+
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Pepe World - Testnet - Native tokens",
+  "tokens": [
+    {
+      "tokenID": "0137133700000000",
+      "tokenName": "PEPE",
+      "description": "Native Utility Token",
+      "denomUnits": [
+        {
+          "denom": "pepe",
+          "decimals": 0,
+          "aliases": ["PEPE"]
+        }
+      ],
+      "baseDenom": "pepe",
+      "displayDenom": "pepe",
+      "symbol": "PEPE",
+      "logo": {
+        "png": "https://github.com/Theezr/pepe-world-chain/blob/6179ffe51e35734e22af9a4cb62cf5a4d6fa47fc/images/pepe-coin.png",
+        "svg": "https://github.com/Theezr/pepe-world-chain/blob/6179ffe51e35734e22af9a4cb62cf5a4d6fa47fc/images/pepe-coin.svg"
+      }
+    }
+  ]
+}
