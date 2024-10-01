@@ -4,15 +4,20 @@
     {
       "tokenID": "0137133700000000",
       "tokenName": "PEPE",
-      "description": "Native Utility Token",
+      "description": "The one and only Pepe coin.",
       "denomUnits": [
+        {
+          "denom": "pepo",
+          "decimals": 0,
+          "aliases": ["Pepo"]
+        },
         {
           "denom": "pepe",
           "decimals": 8,
-          "aliases": ["PEPE"]
+          "aliases": ["Pepe"]
         }
       ],
-      "baseDenom": "pepe",
+      "baseDenom": "pepo",
       "displayDenom": "pepe",
       "symbol": "PEPE",
       "logo": {
