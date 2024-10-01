@@ -7,8 +7,8 @@
   "genesisURL": "https://github.com/Theezr/pepe-world-chain/blob/master/config/default/genesis_assets.json",
   "projectPage": "https://pepe-world-fe.vercel.app/",
   "logo": {
-      "png": "https://raw.githubusercontent.com/Theezr/pepe-world-chain/6179ffe51e35734e22af9a4cb62cf5a4d6fa47fc/images/pepe-coin.png",
-      "svg": "https://raw.githubusercontent.com/Theezr/pepe-world-chain/6179ffe51e35734e22af9a4cb62cf5a4d6fa47fc/images/pepe-coin.svg"
+      "png": "https://raw.githubusercontent.com/Theezr/pepe-world-chain/refs/heads/master/images/pepe-coin.png",
+      "svg": "https://raw.githubusercontent.com/Theezr/pepe-world-chain/66a0e3e3233a457ebf9021789fa93dcf0284f3e9/images/pepe-coin.svg"
   },
   "backgroundColor": "#f7f9fb",
   "serviceURLs": [
