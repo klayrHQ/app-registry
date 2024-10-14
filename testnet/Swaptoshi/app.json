@@ -14,8 +14,8 @@
   "backgroundColor": "#FFFFFF",
   "serviceURLs": [
     {
-      "http": "https://testnet-service.swaptoshi.com",
-      "ws": "wss://testnet-service.swaptoshi.com",
+      "http": "https://swaptoshi-gateway.klayr.dev/api/v1",
+      "ws": "wss://swaptoshi-gateway.klayr.dev/api/v1",
       "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJuhEF/6mLD4DYCfnJBAwGawN7yQP\nS3w2knS65PHMScXiZjCrFMPKG0+7NswA3WhIJn0AU4IKffuPnpt8Mly+yg==\n-----END PUBLIC KEY-----"
     }
   ],

@@ -14,15 +14,15 @@
     "backgroundColor": "#EDEDCE",
     "serviceURLs": [
         {
-            "http": "https://service.klayr.xyz",
-            "ws": "wss://service.klayr.xyz",
+            "http": "https://gateway-mainnet.klayr.dev/api/v1",
+            "ws": "wss://gateway-mainnet.klayr.dev/api/v1",
             "apiCertificatePublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoWCLObWsqufJm3aOSigy\nvc+kpjE2058UtgBgNfqp7nfcHePMzSpLZrLiILN8m5y0E4UYT4ywLSe7nzzbmLEW\n+BTSItaAPP/cOLPA89VhbmEDQJa2ndfGT5CGP++duvlQ6yH0JHdOkwIpr+o7Mjvs\nSfgIMtALtm5uNOGN4sJSFoNPjXDpskgHi6rOXXifN89wXx38KNCll+tlzUFjOtLR\nZI8ykq+5TDtS9NBJKqIHS3xIQXpXHK63mA9ogmmMwN/4cPh8S+vVUigzdorH6+4m\nFSdE+KfZHc+eK5mr+FfCRJOo6PKMCEeAM1ykBvyX93PwqCndeM+ldL2/EfQvijN+\n+wIDAQAB\n-----END PUBLIC KEY-----"
         }
     ],
     "explorers": [
         {
-            "url": "https://explorer.klayr.xyz",
-            "txnPage": "https://explorer.klayr.xyz/transactions"
+            "url": "https://explorer.klayr.dev/",
+            "txnPage": "https://explorer.klayr.dev/transactions"
         }
     ],
     "appNodes": [
