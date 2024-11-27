@@ -1,0 +1,29 @@
+{
+  "title": "Jena - Testnet - Native tokens",
+  "tokens": [
+    {
+      "tokenID": "0100005400000000",
+      "tokenName": "JENA",
+      "description": "The Jena blockchain (side chain of Muzikie dApp) native token.",
+      "denomUnits": [
+        {
+          "denom": "jena",
+          "decimals": 0,
+          "aliases": ["Jena"]
+        },
+        {
+          "denom": "jen",
+          "decimals": 8,
+          "aliases": ["Jen"]
+        }
+      ],
+      "baseDenom": "jena",
+      "displayDenom": "jena",
+      "symbol": "JENA",
+      "logo": {
+        "png": "https://raw.githubusercontent.com/Muzikie/website/refs/heads/development/public/images/token.png",
+        "svg": "https://raw.githubusercontent.com/Muzikie/website/refs/heads/development/public/images/token.svg"
+      }
+    }
+  ]
+}

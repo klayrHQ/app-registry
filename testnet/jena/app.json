@@ -1,0 +1,17 @@
+{
+  "title": "Jena - Testnet",
+  "description": "Metadata configuration for the Jena blockchain (sidechain of Muzikie dApp) in testnet",
+  "chainName": "Jena",
+  "chainID": "01000054",
+  "networkType": "testnet",
+  "genesisURL": "https://github.com/Muzikie/blockchain/raw/refs/heads/development/config/testnet/genesis_block.blob",
+  "projectPage": "https://muzikie.com/",
+  "logo": {
+    "png": "https://raw.githubusercontent.com/Muzikie/website/refs/heads/main/public/images/logo.png",
+    "svg": "https://raw.githubusercontent.com/Muzikie/website/refs/heads/main/public/images/logo.svg"
+  },
+  "backgroundColor": "#feeae3",
+  "serviceURLs": [],
+  "explorers": [],
+  "appNodes": []
+}
